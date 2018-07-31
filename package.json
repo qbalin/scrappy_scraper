@@ -1,0 +1,15 @@
+{
+  "name": "uscis_appointment_slot_checker",
+  "version": "1.0.0",
+  "description": "Checks the USCIS appointment page for New York and sends a SMS if some slots are free",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Quentin Balin",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "twilio": "^3.18.0"
+  }
+}
